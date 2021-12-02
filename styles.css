@@ -57,6 +57,7 @@ article{
     display: block;
     width: 100vw;
     text-align: center;
+    box-sizing: border-box;
     
 }
 
