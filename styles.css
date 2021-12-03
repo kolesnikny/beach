@@ -1,84 +1,87 @@
-*{
+* {
   margin: 0;
-  padding:0;  
+  padding: 0;
 }
 
-body{
-    line-height: 1.5;
-    font-size: 20px;
+body {
+  line-height: 1.5;
+  font-size: 20px;
 }
 
-.header{
-    height: 100vh;
-    background-image: url("https://traversymedia.com/downloads/assets/beachshowcase.jpg");
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-    padding-top: 35vh;
+.header {
+  height: 100vh;
+  background-image: url("https://traversymedia.com/downloads/assets/beachshowcase.jpg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding-top: 35vh;
 }
 
-.header>h1,p,a{
-    text-align: center;
-    color: #926239;
-    display: block;
-    margin:20px auto;
+.header > h1,
+p,
+a {
+  text-align: center;
+  color: #926239;
+  display: block;
+  margin: 20px auto;
 }
 
-.header>h1{
-    font-size: 50px;
-    text-transform: capitalize;
+.header > h1 {
+  font-size: 50px;
+  text-transform: capitalize;
 }
 
-.header>a{
-    width: 200px;
-    min-width: 100px;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-    border: 2px solid #926239;
-    border-radius: 15px;
+.header > a {
+  width: 200px;
+  min-width: 100px;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  border: 2px solid #926239;
+  border-radius: 15px;
 }
 
-.brown{
-    background-color: #926239;
-    color: white;
+.brown {
+  background-color: #926239;
+  color: white;
 }
 
-.brown>p{
-    color: inherit;
+.brown > p {
+  color: inherit;
 }
 
-.white{
-    background-color: white;
-    color: #926239;
+.white {
+  background-color: white;
+  color: #926239;
 }
 
-.white>p{
-    color: inherit;
+.white > p {
+  color: inherit;
 }
 
-
-.all-with{
-    box-sizing: border-box;
-    padding: 20px;
-    width: 100%;
-    text-align: center;
+.all-with {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
 }
 
-section{
-    width: 100%;
-    font-size: 0px;
-    text-align: center;
+section {
+  background-color: #926239;
+  color: white;
+  width: 100%;
+  font-size: 0px;
+  text-align: center;
 }
 
-.inline{
-    font-size: 20px;
-    width: 33vw;
-    display:inline-block;
-    padding: 20px;
-    box-sizing: border-box;
+.inline {
+  font-size: 20px;
+  width: 33vw;
+  display: inline-block;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.inline>p{
-    text-align: left;
+.inline > p {
+  text-align: left;
 }
