@@ -4,7 +4,6 @@
 }
 
 .header{
-    
     height: 100vh;
     background-image: url("https://traversymedia.com/downloads/assets/beachshowcase.jpg");
     background-size: cover;
@@ -14,7 +13,6 @@
 }
 
 .header>h1,p,a{
-    min-width: 10vw;
     text-align: center;
     color: #926239;
     display: block;
@@ -39,30 +37,43 @@
 
 .brown{
     background-color: #926239;
+    
+}
+.brown>p{
     color: white;
 }
 
 .white{
     background-color: white;
+}
+
+.white>p{
     color: #926239;
 }
 
+
 article{
+    box-sizing: border-box;
     font-size: 20px;
     line-height: 1.5;
     padding: 20px;
 }
 
 .all-with{
-    display: block;
-    width: 100vw;
+    width: 100%;
     text-align: center;
+}
+
+section{
     box-sizing: border-box;
-    
+    padding:1px;
 }
 
 .inline{
     width: 33vw;
     display:inline-block;
-    box-sizing: border-box;
+}
+
+.inline>p{
+    text-align: left;
 }
